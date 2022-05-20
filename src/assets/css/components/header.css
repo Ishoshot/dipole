@@ -1,0 +1,33 @@
+.pr-navbar {
+  background-color: var(--white-bg);
+}
+
+.pr-navbar.opaque {
+  background-color: var(--primary-bg) !important;
+  transition: background-color 0.5s ease 0s;
+}
+
+
+.pr-nav a {
+  color: var(--text-color) !important;
+}
+
+
+.book-a-demo{
+  background-color: var(--primary-bg);
+  border: 2px solid var(--primary-bg);
+  color: var(--text-white);
+  border-radius: 0.7rem;
+  transition: 0.5s all;
+  transition-timing-function: ease-in-out;
+  transition-property: 'background-color, color, border';
+}
+
+.book-a-demo:hover{
+  background-color: var(--white-bg);
+  border: 2px solid var(--primary-bg);
+  color: var(--text-black);
+  border-radius: 0rem;
+}
+
+

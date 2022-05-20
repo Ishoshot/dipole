@@ -1,0 +1,81 @@
+.hero-section{
+  /* background: linear-gradient(117.95deg, #ffffff -87.97%, #1A74BB 82.04%); */
+  background: var(--primary-bg);
+  height: calc(100vh - 10vh);
+  width: 100%;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.hero-title {  
+  font-family: var(--font-macondo);
+  font-size: 2.8em;
+  font-weight: 600;
+  word-break: break-word;
+  color: var(--text-white);
+}
+
+.hero-caption {
+  letter-spacing: .5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: var(--text-white);
+}
+
+.hero-text {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--text-white);
+}
+
+
+.btn-book-a-demo {
+  background-color: var(--secondary-bg);
+  border: 2px solid var(--secondary-bg);
+  color: var(--text-white) !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: .7rem;
+  transition: 0.5s all;
+  transition-timing-function: ease-in-out;
+}
+
+.btn-book-a-demo:hover {
+  background-color: var(--white-bg);
+  border: 2px solid var(--white-bg);
+  color: var(--text-secondary) !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 0rem
+}
+
+.btn-browse {
+  background-color: transparent;
+  border: 2px solid var(--text-white);
+  color: var(--text-white) !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: .7rem;
+  transition: 0.5s all ease;
+}
+
+.btn-browse:hover {
+  background-color: var(--white-bg);
+  border: 2px solid var(--text-white);
+  color: var(--text-primary) !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 0rem;
+}
+

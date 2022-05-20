@@ -1,0 +1,24 @@
+.alpha {
+  background: var(--white-bg);
+}
+
+.alpha-title {
+  font-family: var(--font-macondo);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.alpha-sub {
+  font-size: 1rem;
+  color: var(--text-black);
+}
+
+.alpha_question_image {
+  background-image: url("../../images/alpha_question.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10rem;
+  height: 10rem;
+}

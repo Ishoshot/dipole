@@ -1,0 +1,73 @@
+@import 'https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins&family=Macondo&family=DM+Sans';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+@import 'https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css';
+
+
+/* ------------------------------ NProgress css ----------------------------- */
+@import './nprogress.css';
+
+/* ------------------------------ Component CSS ----------------------------- */
+@import '../components/header.css';
+@import '../components/hero.css';
+@import '../components/alpha.css';
+@import '../components/categories.css';
+@import '../components/exclusive.css';
+
+
+:root {
+  --font-carter: 'Carter One', cursive;
+  --font-macondo: 'Macondo', sans-serif;
+  --white-bg: #ffffff;
+  --primary-bg: #1a74bb;
+  --secondary-bg: #f02213;
+  --text-black: #353535;
+  --text-white: #ffffff;
+  --text-primary: #1a74bb;
+  --text-secondary: #f02213;
+  --text-grey: #5a636e;
+  --link-color: #1a74bb;
+}
+
+body {
+  background-color: var(--white-bg);
+  transition: 0.5s all;
+  color: var(--text-black);
+  font-family: "DM Sans" !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.text-black {
+  color: var(--text-black) !important;
+}
+
+.text-white {
+  color: var(--text-white) !important;
+}
+
+.text-primary {
+  color: var(--text-primary) !important;
+}
+
+.white-bg {
+  background-color: var(--white-bg) !important;
+}
+
+.primary-bg {
+  background-color: var(--primary-bg) !important;
+}
+
+.secondary-bg {
+  background-color: var(--secondary-bg) !important;
+}
+
+.text-secondary {
+  color: var(--text-secondary) !important;
+}
+
+
+a:link,
+a:visited,
+a:active {
+  color: var(--link-color);
+}
