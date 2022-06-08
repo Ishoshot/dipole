@@ -13,7 +13,7 @@
 }
 
 
-.book-a-demo{
+.book-a-demo {
   background-color: var(--primary-bg);
   border: 2px solid var(--primary-bg);
   color: var(--text-white);
@@ -23,11 +23,9 @@
   transition-property: 'background-color, color, border';
 }
 
-.book-a-demo:hover{
+.book-a-demo:hover {
   background-color: var(--white-bg);
   border: 2px solid var(--primary-bg);
-  color: var(--text-black);
+  color: var(--text-primary);
   border-radius: 0rem;
 }
-
-

@@ -13,6 +13,8 @@
 @import '../components/alpha.css';
 @import '../components/categories.css';
 @import '../components/exclusive.css';
+@import '../components/digitalAssistant.css';
+@import '../components/accountOpening.css';
 
 
 :root {
@@ -20,11 +22,11 @@
   --font-macondo: 'Macondo', sans-serif;
   --white-bg: #ffffff;
   --primary-bg: #1a74bb;
-  --secondary-bg: #f02213;
+  --secondary-bg: #444792;
   --text-black: #353535;
   --text-white: #ffffff;
   --text-primary: #1a74bb;
-  --text-secondary: #f02213;
+  --text-secondary: #444792;
   --text-grey: #5a636e;
   --link-color: #1a74bb;
 }

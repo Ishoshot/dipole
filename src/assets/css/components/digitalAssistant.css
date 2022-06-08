@@ -1,0 +1,48 @@
+.digitalAssistant {
+    position: relative;
+    background-color: var(--secondary-bg);
+}
+
+h4.digitalAssistant_tag {
+    background-color: #f1f1f1dc;
+    border-radius: 1rem;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    cursor: pointer;
+}
+
+.digitalAssistant_title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-white);
+}
+
+
+.digitalAssistant_description {
+    color: var(--text-white);
+}
+
+
+.btn-explore {
+    background-color: var(--white-bg);
+    color: var(--text-secondary) !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    border-radius: 0rem;
+}
+
+.digital-assistant {
+    position: relative;
+    margin-top: 4rem;
+}
+
+.digital-assistant video {
+    object-fit: cover;
+    object-position: left;
+    border-radius: 1rem;
+}

@@ -5,8 +5,11 @@
         <div>
           <pr-hero />
           <pr-alpha-section />
-          <pr-exclusive />
           <pr-categories />
+          <pr-digital-assistant />
+          <pr-exclusive />
+          <pr-account-opening />
+          <pr-get-started />
         </div>
       </template>
     </pr-main>

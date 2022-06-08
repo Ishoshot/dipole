@@ -1,4 +1,4 @@
-.hero-section{
+.hero-section {
   /* background: linear-gradient(117.95deg, #ffffff -87.97%, #1A74BB 82.04%); */
   background: var(--primary-bg);
   height: calc(100vh - 10vh);
@@ -9,8 +9,7 @@
 }
 
 
-.hero-title {  
-  font-family: var(--font-macondo);
+.hero-title {
   font-size: 2.8em;
   font-weight: 600;
   word-break: break-word;
@@ -33,27 +32,28 @@
 
 
 .btn-book-a-demo {
-  background-color: var(--secondary-bg);
-  border: 2px solid var(--secondary-bg);
-  color: var(--text-white) !important;
+  background-color: var(--white-bg);
+  border: 2px solid var(--white-bg);
+  color: var(--text-primary) !important;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-radius: .7rem;
+  border-radius: 0rem;
   transition: 0.5s all;
   transition-timing-function: ease-in-out;
 }
 
 .btn-book-a-demo:hover {
-  background-color: var(--white-bg);
+  background-color: transparent;
   border: 2px solid var(--white-bg);
-  color: var(--text-secondary) !important;
+  color: var(--text-white) !important;
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-radius: 0rem
+  border-radius: .5rem;
+  font-weight: bold;
 }
 
 .btn-browse {
@@ -64,7 +64,7 @@
   padding-right: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-radius: .7rem;
+  border-radius: 0rem;
   transition: 0.5s all ease;
 }
 
@@ -76,6 +76,6 @@
   padding-right: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-radius: 0rem;
+  border-radius: .5rem;
+  font-weight: bold;
 }
-

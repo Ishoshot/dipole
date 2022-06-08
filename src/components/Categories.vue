@@ -74,7 +74,7 @@
               <h4 class="card-title mt-4 mb-3">Human Resources</h4>
               <div class="list">
                 <div class="text">
-                  Employee Onboarding and Offboarding Process
+                  Employee Onboarding and Offboarding Proc..
                 </div>
                 <div class="text">Leave Request Process</div>
                 <div class="text">Appraisal and KPI Definition Process</div>

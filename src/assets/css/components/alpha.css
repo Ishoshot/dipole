@@ -3,15 +3,16 @@
 }
 
 .alpha-title {
-  font-family: var(--font-macondo);
+  /* font-family: var(--font-macondo); */
   font-size: 2rem;
   font-weight: 600;
-  color: var(--text-primary);
+  color: var(--text-black);
 }
 
 .alpha-sub {
   font-size: 1rem;
   color: var(--text-black);
+  line-height: 1.6em;
 }
 
 .alpha_question_image {

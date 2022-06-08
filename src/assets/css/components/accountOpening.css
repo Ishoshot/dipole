@@ -1,0 +1,37 @@
+.accountOpening {
+    position: relative;
+    background-color: var(--primary-bg);
+}
+
+h4.accountOpening_tag {
+    background-color: #f1f1f1dc;
+    border-radius: 1rem;
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    cursor: pointer;
+}
+
+.accountOpening_title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-white);
+}
+
+
+.accountOpening_description {
+    color: var(--text-white);
+}
+
+
+.btn-explore {
+    background-color: var(--white-bg);
+    color: var(--text-primary) !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    border-radius: 0rem;
+}
